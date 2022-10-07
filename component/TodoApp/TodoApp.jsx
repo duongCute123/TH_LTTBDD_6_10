@@ -9,7 +9,7 @@ const TodoApp=()=>{
     //Thêm công việc nhé
     const addcv=()=>{
         setListCV(pre=>{
-            // [...pre],congViec
+            // [...pre,ccongViec]
             //Lưu công việc vào trong localStorage
             const newList=[...pre,congViec]
             const jsonJob=JSON.stringify(newList)
